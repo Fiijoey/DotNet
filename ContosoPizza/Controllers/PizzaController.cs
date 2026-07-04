@@ -29,7 +29,13 @@ public class PizzaController : ControllerBase
     [HttpPost]
     public IActionResult Create(Pizza pizza)
     {
-        // This code will save the pizza and return a result
+        if (pizza == null)
+        {
+            return BadRequest("Pizza cannot be null.");
+        }
+
+        PizzaService.Add(pizza);
+        return CreatedAtAction(nameof(Get), new { id = pizza.Id }, pizza);
     }
 
     [HttpPut("{id}")]
