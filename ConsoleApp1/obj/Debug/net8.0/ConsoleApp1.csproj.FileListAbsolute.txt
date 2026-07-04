@@ -1,0 +1,15 @@
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.deps.json
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.dll
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.pdb
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfo.cs
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.sourcelink.json
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.dll
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/refint/ConsoleApp1.dll
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
+/Users/joeyblack/Desktop/School/DOTNET/DotNet/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll
