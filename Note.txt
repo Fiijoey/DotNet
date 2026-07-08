@@ -1,0 +1,38 @@
+## Evidence from Web API Module
+
+  static PizzaService()
+    {
+        Pizzas = new List<Pizza>
+        {
+            new Pizza { Id = 1, Name = "Classic Italian", IsGlutenFree = false },
+            new Pizza { Id = 2, Name = "Veggie", IsGlutenFree = true },
+            new Pizza { Id = 3, Name = "Fiifilicious", IsGlutenFree = true }
+        };
+    }
+
+
+
+The sals summary function.
+
+public static void GenerateSalesSummary(IEnumerable<string> salesFiles, string reportFile)
+    {
+        double totalSales = 0;
+        var details = new List<string>();
+
+        foreach (var file in salesFiles)
+        {
+            string salesJson = File.ReadAllText(file);
+            SalesData? data = JsonConvert.DeserializeObject<SalesData?>(salesJson);
+            double fileTotal = data?.Total ?? 0;
+
+            totalSales += fileTotal;
+            details.Add($"  {Path.GetFileName(file)}: ${fileTotal:N2}");
+        }
+
+        var reportContent = $"Sales Summary\n" +
+                            $"----------------------------\n" +
+                            $" Total Sales: ${totalSales:N2}\n\n" +
+                            $" Details:\n{string.Join(Environment.NewLine, details)}";
+
+        File.WriteAllText(reportFile, reportContent);
+    }
