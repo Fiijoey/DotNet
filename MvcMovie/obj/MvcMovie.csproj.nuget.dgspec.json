@@ -10,7 +10,7 @@
         "projectUniqueName": "/Users/joeyblack/Desktop/School/DOTNET/DotNet/MvcMovie/MvcMovie.csproj",
         "projectName": "MvcMovie",
         "projectPath": "/Users/joeyblack/Desktop/School/DOTNET/DotNet/MvcMovie/MvcMovie.csproj",
-        "packagesPath": "/Users/joeyblack/.nuget/packages/",
+        "packagesPath": "/var/folders/nx/znw4lh_559b8gpsv87mj77yh0000gn/T/cursor-sandbox-cache/2eeaef124c86590decbd9d23dc5919a0/nuget",
         "outputPath": "/Users/joeyblack/Desktop/School/DOTNET/DotNet/MvcMovie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
@@ -48,23 +48,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
