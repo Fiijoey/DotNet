@@ -6523,7 +6523,7 @@
     ]
   },
   "packageFolders": {
-    "/var/folders/nx/znw4lh_559b8gpsv87mj77yh0000gn/T/cursor-sandbox-cache/2eeaef124c86590decbd9d23dc5919a0/nuget": {}
+    "/Users/joeyblack/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6531,7 +6531,7 @@
       "projectUniqueName": "/Users/joeyblack/Desktop/School/DOTNET/DotNet/MvcMovie/MvcMovie.csproj",
       "projectName": "MvcMovie",
       "projectPath": "/Users/joeyblack/Desktop/School/DOTNET/DotNet/MvcMovie/MvcMovie.csproj",
-      "packagesPath": "/var/folders/nx/znw4lh_559b8gpsv87mj77yh0000gn/T/cursor-sandbox-cache/2eeaef124c86590decbd9d23dc5919a0/nuget",
+      "packagesPath": "/Users/joeyblack/.nuget/packages/",
       "outputPath": "/Users/joeyblack/Desktop/School/DOTNET/DotNet/MvcMovie/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
