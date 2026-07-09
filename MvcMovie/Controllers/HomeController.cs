@@ -13,9 +13,22 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index(string id)
     {
-        return View();
+        if (_context.Movie == null)
+        {
+            return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+        }
+
+        var movies = from m in _context.Movie
+                     select m;
+
+        if (!String.IsNullOrEmpty(id))
+        {
+            movies = movies.Where(s => s.Title!.ToUpper().Contains(id.ToUpper()));
+        }
+
+        return View(await movies.ToListAsync());
     }
 
     public IActionResult Privacy()
