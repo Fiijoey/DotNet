@@ -1,16 +1,19 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MvcMovie.Models;
+using System.Diagnostics;
 
-namespace MvcMovie.Controllers;
+using MvcMovie.Data;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly MvcMovieContext _context;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, MvcMovieContext context)
     {
         _logger = logger;
+        _context = context;
     }
 
     public async Task<IActionResult> Index(string id)
